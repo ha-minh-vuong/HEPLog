@@ -22,7 +22,7 @@ log.error()
 log.fatal()
 ```
 
-HEPLog supports module log. So, in your module, you create an empty subclass of `HEPModuleLog`, and obtain the log object by `let log = HEPModuleSubClassLog.log`. A client of your module can enable or disable the log in your module by `HEPModuleSubClassLog.enable = true // or false`.
+`HEPLog` supports module log. To use it, you can create an empty subclass of `HEPModuleLog`, and obtain the log object by `let log = HEPModuleSubClassLog.log`. A client of your module can enable or disable the log in your module by `HEPModuleSubClassLog.enable = true // or false`.
 
 ### Installation
 
