@@ -18,7 +18,5 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ha-minh-vuong/HEPLog.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Source", "Source/**/*.{h,m,swift}"
-  s.exclude_files = "Source/Exclude"
-
+  s.source_files  = "Source/**/*.{h,m,swift}"
 end
