@@ -2,7 +2,6 @@
 // Copyright © 2017 by Ha Minh Vuong.
 //
 
-
 @import Foundation;
 
 //! Project version number for HEPLog.

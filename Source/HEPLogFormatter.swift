@@ -2,7 +2,6 @@
 // Copyright © 2017 by Ha Minh Vuong.
 //
 
-
 enum FormatVariable: String {
     case TYPE, type, file, line, function, message
 }

@@ -2,7 +2,6 @@
 // Copyright © 2017 by Ha Minh Vuong.
 //
 
-
 public enum HEPLogLevel: Int {
     case off
     case trace
@@ -39,9 +38,7 @@ public protocol HEPLoggable {
 }
 
 extension HEPLoggable {
-
     public func log(_ type: HEPLogLevel, message: String, functionName: String, lineNum: Int, fileName: String) {
-
         guard shouldLog(type) else { return }
 
         var result: String
@@ -57,7 +54,7 @@ extension HEPLoggable {
                 FormatVariable.message: message
             ]
             result = HEPLogFormatter.render(format: formatter, variables: formatVariables)
-            
+
         } else { // Default format
             var msgType: String
             switch type {

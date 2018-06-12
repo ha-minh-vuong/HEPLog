@@ -2,7 +2,6 @@
 // Copyright © 2017 by Ha Minh Vuong.
 //
 
-
 protocol HEPModuleLoggable {
     static var log: HEPLog? { get }
     static var enable: Bool { get set }
